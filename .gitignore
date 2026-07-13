@@ -1,0 +1,87 @@
+# Temp files
+*~
+
+# Databases
+btcd.db
+*-shm
+*-wal
+
+# Log files
+*.log
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+vendor
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+# Code coverage files
+profile.tmp
+profile.cov
+coverage.txt
+coverage.txt.bak
+
+# vim
+*.swp
+*.swo
+/.vim
+
+#IDE
+.idea
+
+# Binaries produced by "make build"
+/addblock
+/btcctl
+/btcd
+/findcheckpoint
+/gencerts
+
+# FalconDraw built binaries
+/btcd.bak
+/btcd.bak2
+/falcondraw
+/drawsim
+/fdrw
+/gengenesis
+/nodeui
+/cmd/nodeui/nodeui
+/cmd/fdrw/fdrw
+/cmd/drawsim/drawsim
+/simulate
+/snaptool
+
+# Generated PDF (rebuilt from whitepaper.html)
+/cmd/nodeui/static/whitepaper.pdf
+
+# RandomX legacy package (SHA256d is final; CGo requires librandomx)
+/randomx/
+
+# Session/operational notes — not part of the protocol source
+/CLAUDE.md
+
+.DS_Store
+.aider*
+
+# Auth database — never commit
+/cmd/nodeui/auth.db
+
+# Telegram Mini App HTML (contains bot username — keep off repo)
+/cmd/nodeui/static/tg.html
